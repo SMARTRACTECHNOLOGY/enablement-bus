@@ -1,0 +1,17 @@
+{
+  "name": "enablement-bus",
+  "version": "1.0.0",
+  "description": "Rabbit bus w/ node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development URL=localhost:5672 node index.js",
+    "prod": "NODE_ENV=production URL=dev.rabbitmq.com node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  },
+  "false": {}
+}
